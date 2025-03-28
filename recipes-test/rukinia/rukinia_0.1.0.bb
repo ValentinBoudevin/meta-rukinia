@@ -8,10 +8,10 @@ inherit cargo
 # how to get rukinia could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/rukinia/0.1.0"
 SRC_URI += "git://git@github.com/ValentinBoudevin/rukinia.git;protocol=ssh;nobranch=1;branch=main"
-SRCREV = "0e904f61f45fe117f8737011c5129d219b6af3d4"
+SRCREV = "c4d967cac65c548db13b0f2c4e46c1b0c7608b56"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
-PV:append = ".AUTOINC+0e904f61f4"
+PV:append = ".AUTOINC+c4d967cac6"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
